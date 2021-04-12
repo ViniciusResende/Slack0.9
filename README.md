@@ -1,44 +1,110 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<h1 align="center">
+  <img alt="Slack-Logo" src="https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg" width="300px" />
+</h1>
+<p align= "center">:telephone_receiver: An repository that was made with the main porpouse of clone the Slack website with some functionalities :telephone_receiver:</p>
 
-## Available Scripts
+<h4 align="center"> 
+	:construction:  Slack Clone with ReactJS :rocket: | | Concluded  :construction:
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#desktop_computer-about-the-project">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-layout-of-the-application">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-launching-the-app">Lauching the app</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man_technologist-used-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#raising_hand_man-developer">Developer</a>
+</p>
 
-### `yarn start`
+</br>
+</br>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :desktop_computer: About the project:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+:comet:  Slack Clone - The project was made visioning to be a clone of the Slack web application, appling all these visual functionalities, create channel, login and send messages functionalities by developing a project that have used React, Redux, styled-components and Firebase. 
 
-### `yarn test`
+:rocket: Is an application that intend to develop my skills with React and Redux, developing an Application to put the knowledge in practice. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:chart_with_upwards_trend: The project was an essential opportunity to develop skills with [ReactJS](https://reactjs.org/), [Redux](https://redux.js.org/) and [styled-components](https://styled-components.com/).  
 
-### `yarn build`
+</br>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :art: Layout of the Application:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<img alt="slack-clone" src="https://res.cloudinary.com/viniciusalvesdefaria/image/upload/v1618248327/TwitterClone/Slack_0.9_1_t1qame.gif">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img alt="slack-clone" src="https://res.cloudinary.com/viniciusalvesdefaria/image/upload/v1618248176/TwitterClone/Slack_0.9_2_yjqscm.gif">
+ 
+ 
+</br>
+</br>
 
-### `yarn eject`
+## :rocket: Launching the App:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The application only has a frontend page, the back end is all managed by firebase:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:bulb: But, is required that you use a server to have a most flowable experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Pre requirements
+#### Before start, you should need have installed in your computer those following tools:
+<img align="center" alt="GIT" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" style="max-width:100%;">  [Git](https://git-scm.com)</img>
+</br>
+<img align="center" alt="NodeJS" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" style="max-width:100%;"> [Node.js](https://nodejs.org/en/) (To manage the project modules)</img>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### It is also recommended a good code editor, for example: 
+<img align="center" alt="VisualStudioCode" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" style="max-width:100%;"> [VSCode](https://code.visualstudio.com/)</img>
 
-## Learn More
+</br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### :gear: Starting the App:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ ```bash
+
+ # Clone the Repository
+ $ git clone https://github.com/ViniciusResende/Slack0.9.git
+ 
+ # Enter the poject folder in the Terminal
+ $ cd Slack0.9
+ 
+ # Install all the dependencies
+ $ npm install
+  or
+ $ yarn install
+ 
+ # Execute the appliction with this command
+ $ npm start
+  or
+ $ yarn start
+ 
+ # The server will start in the port:3000
+ 
+ ```
+ 
+ ---
+ 
+## :man_technologist: Used Technologies:
+
+Those following tools were used in the project development:
+
+### **Application**  ([ReactJS](https://reactjs.org/) + [Redux](https://redux.js.org/)
+
+-   **[@material-ui/icons](https://material-ui.com/components/material-icons/)**
+-   **[@reduxjs/toolkit](https://www.npmjs.com/package/@reduxjs/toolkit)**
+-   **[firebase](https://firebase.google.com/)**
+-   **[react-awesome-modal](https://firebase.google.com/)**
+-   **[react-dom](https://reactjs.org/docs/react-dom.html)**
+-   **[react-firebase-hooks](https://www.npmjs.com/package/react-firebase-hooks)**
+-   **[react-router-dom](https://reactjs.org/docs/react-dom.html)**
+-   **[react-spinkit](https://www.npmjs.com/package/react-spinkit)**
+-   **[styled-components](https://styled-components.com/)**
+
+</br>
+
+## :raising_hand_man: Developer
+
+<a href="https://github.com/ViniciusResende">
+ 	<img src="https://res.cloudinary.com/viniciusalvesdefaria/image/upload/v1613257612/foto_perfil_rounded_mv1cpi.png" width="100px;" alt=""/>
+ <br />
+ 	<b>Vinícius Alves</b></a> <a href="https://github.com/ViniciusResende" title="Vinícius Alves"></a>
+ <br />
+
+
